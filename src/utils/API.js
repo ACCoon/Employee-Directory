@@ -8,7 +8,7 @@ function API() {
       const emps = res.data.results;
       return emps.map(emp => {
         return{
-          picture: emp.picture.thumbnail,
+          picture: emp.picture.medium,
           name: `${emp.name.first} ${emp.name.last}`,
           email: emp.email,
           phone: emp.phone
