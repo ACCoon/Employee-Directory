@@ -1,7 +1,7 @@
 import React from "react";
 
 function Header() {
-  return <h1>Sample header</h1>;
+  return <h1>Employee Directory</h1>;
 }
 
 export default Header;
